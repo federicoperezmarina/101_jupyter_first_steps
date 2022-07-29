@@ -1,3 +1,6 @@
-FROM jupyter/minimal-notebook
+FROM jupyter/all-spark-notebook
 
-COPY . /home/jovyan/
+USER jovyan
+WORKDIR /python-jupyter-lab
+COPY . .
+
