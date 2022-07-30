@@ -1,6 +1,9 @@
 FROM jupyter/all-spark-notebook
 
-USER jovyan
+USER root
+
+RUN chown jovyan:users *.ipynb
+
 WORKDIR /python-jupyter-lab
 COPY . .
 
