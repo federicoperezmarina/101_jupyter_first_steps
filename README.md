@@ -12,7 +12,6 @@ This is the Dockerfile that we want to use to build the image of jenkins.
 ```sh
 FROM jupyter/all-spark-notebook
 
-USER jovyan
 WORKDIR /python-jupyter-lab
 COPY . .
 
