@@ -6,6 +6,8 @@ This repository is about how to use jupyter notebooks
 * [Build the image from Dockerfile](#build-the-image-from-dockerfile)
 * [Run the image](#run-the-image)
 * [Start Jupyter Lab](#start-jupyter-lab)
+* [Python examples](#python-examples)
+* [R examples](#r-examples)
 
 ## Dockerfile
 This is the Dockerfile that we want to use to build the image of jenkins.
